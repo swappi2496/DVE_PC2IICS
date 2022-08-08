@@ -1,0 +1,6 @@
+﻿Mapping_Name,TestCaseID,PowerCenter_Connection,PowerCentre_targettable,IICS_Connection,IICS_targettable,Primary_Column,Count(Y/N),Data_Recon (Y/N)
+M1,Testcase_id1,c01,public.af_sales_data,c01,public.af_sales_data,ID,Y,Y
+M2,Testcase_id2,c01,public.af_sales_data,c01,public.af_sales_data,ID,Y,N
+M3,Testcase_id3,c01,public.af_sales_data,c01,public.af_sales_data,ID,N,Y
+M4,Testcase_id4,c01,public.af_sales_data,c01,public.af_sales_data,ID,Y,N
+M5,Testcase_id5,c01,public.af_sales_data,c01,public.af_sales_data,ID,Y,Y

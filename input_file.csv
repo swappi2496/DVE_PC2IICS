@@ -1,0 +1,2 @@
+﻿Mapping_Name,TestCaseID,PowerCenter_Connection,PowerCentre_targettable,IICS_Connection,IICS_targettable,Source_Primary_Column,Target_Primary_Column,Count(Y/N),Data_Recon (Y/N)
+M5,Testcase_id5,c02,test.public.sales_record,c02,test.public.sales_record,Order ID,Order ID,Y,Y
