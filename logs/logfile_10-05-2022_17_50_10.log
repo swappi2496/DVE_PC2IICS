@@ -1,0 +1,213 @@
+2022-05-10 17:50:10,460  =====================================
+2022-05-10 17:50:10,460  Executing TestCaseID - Testcase_id1
+2022-05-10 17:50:10,461  ------------------------------------
+2022-05-10 17:50:10,461  Source Connection Type: c03
+2022-05-10 17:50:10,461  source_table
+2022-05-10 17:50:10,461  ------------------------------------
+2022-05-10 17:50:10,461  Target Connection Type: c07
+2022-05-10 17:50:10,462  target_table
+2022-05-10 17:50:14,510  name 'src' is not defined
+2022-05-10 17:50:14,511  Exporting the files....
+2022-05-10 17:50:14,512  =====================================
+2022-05-10 17:50:14,571  =====================================
+2022-05-10 17:50:14,572  Executing TestCaseID - Testcase_id2
+2022-05-10 17:50:14,572  ------------------------------------
+2022-05-10 17:50:14,572  Source Connection Type: c07
+2022-05-10 17:50:14,572  source_table
+2022-05-10 17:50:14,572  ------------------------------------
+2022-05-10 17:50:14,572  Target Connection Type: c03
+2022-05-10 17:50:14,573  target_table
+2022-05-10 17:50:18,301  Checking Count and Recon....
+2022-05-10 17:50:18,340  Miss-Match....
+2022-05-10 17:50:18,340  Empty DataFrame
+Columns: [id, store_id_source, store_id_target, store_type_source, store_type_target, location_type_source, location_type_target, holiday_source, holiday_target, disount1_source, disount1_target, discout2_source, discout2_target, order1_source, order1_target, sales_source, sales_target]
+Index: []
+2022-05-10 17:50:18,347  DataFrame....
+2022-05-10 17:50:18,347              id store_id_x store_type_x location_type_x holiday_x disount1_x  ... holiday_y disount1_y discout2_y order1_y   sales_y  join
+0     T1000341      145.0           S1              L3        R1        1.0  ...        R1        1.0        Yes     54.0  41657.76  both
+1     T1000342      144.0           S1              L3        R3        1.0  ...        R3        1.0        Yes     51.0  44448.24  both
+2     T1000343      143.0           S3              L2        R3        1.0  ...        R3        1.0        Yes     27.0  22034.85  both
+3     T1000344      142.0           S2              L1        R3        1.0  ...        R3        1.0        Yes     35.0  29117.25  both
+4     T1000345      141.0           S1              L1        R2        1.0  ...        R2        1.0        Yes     58.0  41675.04  both
+...        ...        ...          ...             ...       ...        ...  ...       ...        ...        ...      ...       ...   ...
+3929  T1000996      149.0           S2              L3        R2        0.0  ...        R2        0.0        Yes     44.0   37944.0  both
+3930  T1000997      305.0           S4              L1        R1        0.0  ...        R1        0.0        Yes     90.0   60003.0  both
+3931  T1000998      262.0           S1              L1        R1        0.0  ...        R1        0.0        Yes     57.0   51114.0  both
+3932  T1000999      283.0           S4              L1        R1        0.0  ...        R1        0.0        Yes     86.0   57231.0  both
+3933  T1001000      283.0           S5              L2        R2        0.0  ...        R2        0.0        Yes     86.0   57231.0  both
+
+[3934 rows x 18 columns]
+2022-05-10 17:50:18,362  Summary....
+2022-05-10 17:50:18,362        Table_Name  Rows
+0       flatfile  1000
+1  mf_stage.TEST  1000
+2022-05-10 17:50:18,365  Only Summary....
+2022-05-10 17:50:18,365                  Summary  Row_Count
+0  Only in Source Table          0
+1  Only in Target Table          0
+2022-05-10 17:50:18,369  Miss-Match Summary....
+2022-05-10 17:50:18,369    Mismatch  Row_Count
+0     None          0
+2022-05-10 17:50:18,399  Creating Report.....
+2022-05-10 17:50:18,400  Success>>>>>>
+2022-05-10 17:50:18,416  Exporting the files....
+2022-05-10 17:50:18,438  =====================================
+2022-05-10 17:50:18,461  =====================================
+2022-05-10 17:50:18,462  Executing TestCaseID - Testcase_id3
+2022-05-10 17:50:18,462  ------------------------------------
+2022-05-10 17:50:18,462  Source Connection Type: c07
+2022-05-10 17:50:18,462  source_table
+2022-05-10 17:50:18,462  ------------------------------------
+2022-05-10 17:50:18,462  Target Connection Type: c07
+2022-05-10 17:50:18,463  target_table
+2022-05-10 17:50:18,605  Checking Count and Recon....
+2022-05-10 17:50:18,632  Miss-Match....
+2022-05-10 17:50:18,632  Empty DataFrame
+Columns: [id, store_id_source, store_id_target, store_type_source, store_type_target, location_type_source, location_type_target, holiday_source, holiday_target, disount1_source, disount1_target, discout2_source, discout2_target, order1_source, order1_target, sales_source, sales_target]
+Index: []
+2022-05-10 17:50:18,638  DataFrame....
+2022-05-10 17:50:18,638              id store_id_x store_type_x location_type_x holiday_x disount1_x  ... holiday_y disount1_y discout2_y order1_y   sales_y  join
+0     T1000341      145.0           S1              L3        R1        1.0  ...        R1        1.0        Yes     54.0  41657.76  both
+1     T1000342      144.0           S1              L3        R3        1.0  ...        R3        1.0        Yes     51.0  44448.24  both
+2     T1000343      143.0           S3              L2        R3        1.0  ...        R3        1.0        Yes     27.0  22034.85  both
+3     T1000344      142.0           S2              L1        R3        1.0  ...        R3        1.0        Yes     35.0  29117.25  both
+4     T1000345      141.0           S1              L1        R2        1.0  ...        R2        1.0        Yes     58.0  41675.04  both
+...        ...        ...          ...             ...       ...        ...  ...       ...        ...        ...      ...       ...   ...
+3929  T1000996      149.0           S2              L3        R2        0.0  ...        R2        0.0        Yes     44.0   37944.0  both
+3930  T1000997      305.0           S4              L1        R1        0.0  ...        R1        0.0        Yes     90.0   60003.0  both
+3931  T1000998      262.0           S1              L1        R1        0.0  ...        R1        0.0        Yes     57.0   51114.0  both
+3932  T1000999      283.0           S4              L1        R1        0.0  ...        R1        0.0        Yes     86.0   57231.0  both
+3933  T1001000      283.0           S5              L2        R2        0.0  ...        R2        0.0        Yes     86.0   57231.0  both
+
+[3934 rows x 18 columns]
+2022-05-10 17:50:18,654  Summary....
+2022-05-10 17:50:18,654    Table_Name  Rows
+0   flatfile  1000
+1   flatfile  1000
+2022-05-10 17:50:18,657  Only Summary....
+2022-05-10 17:50:18,657                  Summary  Row_Count
+0  Only in Source Table          0
+1  Only in Target Table          0
+2022-05-10 17:50:18,660  Miss-Match Summary....
+2022-05-10 17:50:18,660    Mismatch  Row_Count
+0     None          0
+2022-05-10 17:50:18,698  Creating Report.....
+2022-05-10 17:50:18,698  Success>>>>>>
+2022-05-10 17:50:18,707  Exporting the files....
+2022-05-10 17:50:18,726  =====================================
+2022-05-10 17:50:18,753  =====================================
+2022-05-10 17:50:18,753  Executing TestCaseID - Testcase_id4
+2022-05-10 17:50:18,754  ------------------------------------
+2022-05-10 17:50:18,754  Source Connection Type: c03
+2022-05-10 17:50:18,754  source_table
+2022-05-10 17:50:18,754  ------------------------------------
+2022-05-10 17:50:18,754  Target Connection Type: c03
+2022-05-10 17:50:18,754  target_table
+2022-05-10 17:50:26,090  Checking Count and Recon....
+2022-05-10 17:50:26,122  Miss-Match....
+2022-05-10 17:50:26,122  Empty DataFrame
+Columns: [id, store_id_source, store_id_target, store_type_source, store_type_target, location_type_source, location_type_target, holiday_source, holiday_target, disount1_source, disount1_target, discout2_source, discout2_target, order1_source, order1_target, sales_source, sales_target]
+Index: []
+2022-05-10 17:50:26,128  DataFrame....
+2022-05-10 17:50:26,128              id store_id_x store_type_x location_type_x holiday_x disount1_x  ... holiday_y disount1_y discout2_y order1_y   sales_y  join
+0     T1000341      145.0           S1              L3        R1        1.0  ...        R1        1.0        Yes     54.0  41657.76  both
+1     T1000342      144.0           S1              L3        R3        1.0  ...        R3        1.0        Yes     51.0  44448.24  both
+2     T1000343      143.0           S3              L2        R3        1.0  ...        R3        1.0        Yes     27.0  22034.85  both
+3     T1000344      142.0           S2              L1        R3        1.0  ...        R3        1.0        Yes     35.0  29117.25  both
+4     T1000345      141.0           S1              L1        R2        1.0  ...        R2        1.0        Yes     58.0  41675.04  both
+...        ...        ...          ...             ...       ...        ...  ...       ...        ...        ...      ...       ...   ...
+3929  T1000996      149.0           S2              L3        R2        0.0  ...        R2        0.0        Yes     44.0   37944.0  both
+3930  T1000997      305.0           S4              L1        R1        0.0  ...        R1        0.0        Yes     90.0   60003.0  both
+3931  T1000998      262.0           S1              L1        R1        0.0  ...        R1        0.0        Yes     57.0   51114.0  both
+3932  T1000999      283.0           S4              L1        R1        0.0  ...        R1        0.0        Yes     86.0   57231.0  both
+3933  T1001000      283.0           S5              L2        R2        0.0  ...        R2        0.0        Yes     86.0   57231.0  both
+
+[3934 rows x 18 columns]
+2022-05-10 17:50:26,143  Summary....
+2022-05-10 17:50:26,143        Table_Name  Rows
+0  mf_stage.TEST  1000
+1  mf_stage.TEST  1000
+2022-05-10 17:50:26,146  Only Summary....
+2022-05-10 17:50:26,146                  Summary  Row_Count
+0  Only in Source Table          0
+1  Only in Target Table          0
+2022-05-10 17:50:26,149  Miss-Match Summary....
+2022-05-10 17:50:26,149    Mismatch  Row_Count
+0     None          0
+2022-05-10 17:50:26,178  Creating Report.....
+2022-05-10 17:50:26,179  Success>>>>>>
+2022-05-10 17:50:26,187  Exporting the files....
+2022-05-10 17:50:26,204  =====================================
+2022-05-10 17:50:26,227  =====================================
+2022-05-10 17:50:26,228  Executing TestCaseID - Testcase_id5
+2022-05-10 17:50:26,228  ------------------------------------
+2022-05-10 17:50:26,228  Source Connection Type: c02
+2022-05-10 17:50:26,228  source_table
+2022-05-10 17:50:26,228  ------------------------------------
+2022-05-10 17:50:26,228  Target Connection Type: c02
+2022-05-10 17:50:26,228  target_table
+2022-05-10 17:50:26,228  Snowflake Connector for Python Version: 2.7.6, Python Version: 3.10.4, Platform: Windows-10-10.0.19043-SP0
+2022-05-10 17:50:26,229  This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-05-10 17:50:26,229  Setting use_openssl_only mode to False
+2022-05-10 17:50:28,135  query: [select * from test.public.sales_record]
+2022-05-10 17:50:28,436  query execution done
+2022-05-10 17:50:32,110  closed
+2022-05-10 17:50:32,307  No async queries seem to be running, deleting session
+2022-05-10 17:50:32,527  Snowflake Connector for Python Version: 2.7.6, Python Version: 3.10.4, Platform: Windows-10-10.0.19043-SP0
+2022-05-10 17:50:32,527  This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-05-10 17:50:33,801  query: [select * from test.public.sales_record]
+2022-05-10 17:50:34,085  query execution done
+2022-05-10 17:50:37,723  closed
+2022-05-10 17:50:37,936  No async queries seem to be running, deleting session
+2022-05-10 17:50:38,169  Checking Count and Recon....
+2022-05-10 17:50:38,256  Miss-Match....
+2022-05-10 17:50:38,256  Empty DataFrame
+Columns: [order id, region_source, region_target, country_source, country_target, item type_source, item type_target, sales channel_source, sales channel_target, order priority_source, order priority_target, order date_source, order date_target, ship date_source, ship date_target, units sold_source, units sold_target, unit price_source, unit price_target, unit cost_source, unit cost_target, total revenue_source, total revenue_target, total cost_source, total cost_target, total profit_source, total profit_target]
+Index: []
+2022-05-10 17:50:38,284  DataFrame....
+2022-05-10 17:50:38,285                            region_x                         country_x      item type_x  ... total cost_y total profit_y  join
+0               Sub-Saharan Africa                              Chad  Office Supplies  ...   2353920.64      566105.00  both
+1                           Europe                            Latvia        Beverages  ...     34174.25       16834.50  both
+2     Middle East and North Africa                          Pakistan       Vegetables  ...    592408.95      411291.95  both
+3               Sub-Saharan Africa  Democratic Republic of the Congo        Household  ...   3861014.82     1273303.59  both
+4                           Europe                    Czech Republic        Beverages  ...    110978.89       54669.06  both
+...                            ...                               ...              ...  ...          ...            ...   ...
+9995                          Asia                              Laos        Beverages  ...    273298.63      134629.02  both
+9996                        Europe                     Liechtenstein        Cosmetics  ...    147991.46       97714.94  both
+9997            Sub-Saharan Africa  Democratic Republic of the Congo       Vegetables  ...    229507.32      159340.12  both
+9998            Sub-Saharan Africa                      South Africa             Meat  ...   3174991.14      497983.20  both
+9999                          Asia                          Mongolia           Snacks  ...     35175.84       19905.54  both
+
+[10000 rows x 28 columns]
+2022-05-10 17:50:38,309  Summary....
+2022-05-10 17:50:38,309                   Table_Name   Rows
+0  test.public.sales_record  10000
+1  test.public.sales_record  10000
+2022-05-10 17:50:38,313  Only Summary....
+2022-05-10 17:50:38,313                  Summary  Row_Count
+0  Only in Source Table          0
+1  Only in Target Table          0
+2022-05-10 17:50:38,316  Miss-Match Summary....
+2022-05-10 17:50:38,316    Mismatch  Row_Count
+0     None          0
+2022-05-10 17:50:38,348  Creating Report.....
+2022-05-10 17:50:38,348  Success>>>>>>
+2022-05-10 17:50:38,360  Exporting the files....
+2022-05-10 17:50:38,377  =====================================
+2022-05-10 17:50:38,404  =====================================
+2022-05-10 17:50:38,404  Executing TestCaseID - Testcase_id6
+2022-05-10 17:50:38,404  ------------------------------------
+2022-05-10 17:50:38,404  Source Connection Type: c03
+2022-05-10 17:50:38,404  source_table
+2022-05-10 17:50:38,405  ------------------------------------
+2022-05-10 17:50:38,405  Target Connection Type: c02
+2022-05-10 17:50:38,405  target_table
+2022-05-10 17:50:42,101  Snowflake Connector for Python Version: 2.7.6, Python Version: 3.10.4, Platform: Windows-10-10.0.19043-SP0
+2022-05-10 17:50:42,101  This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-05-10 17:50:43,260  query: [select * from test.public.sales_record]
+2022-05-10 17:50:43,542  query execution done
+2022-05-10 17:50:46,824  closed
+2022-05-10 17:50:47,021  No async queries seem to be running, deleting session
+2022-05-10 17:50:47,245  Count Checking....
+2022-05-10 17:50:47,248  Exporting the files....
+2022-05-10 17:50:47,270  =====================================

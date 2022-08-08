@@ -1,0 +1,81 @@
+2022-05-10 15:58:30,483  =====================================
+2022-05-10 15:58:30,484  Executing TestCaseID - Testcase_id1
+2022-05-10 15:58:30,484  ------------------------------------
+2022-05-10 15:58:30,484  Source Connection Type: c03
+2022-05-10 15:58:30,484  source_table
+2022-05-10 15:58:30,484  ------------------------------------
+2022-05-10 15:58:30,485  Target Connection Type: c07
+2022-05-10 15:58:30,485  target_table
+2022-05-10 15:58:34,129  Exporting the files....
+2022-05-10 15:58:34,131  =====================================
+2022-05-10 15:58:34,172  =====================================
+2022-05-10 15:58:34,173  Executing TestCaseID - Testcase_id2
+2022-05-10 15:58:34,173  ------------------------------------
+2022-05-10 15:58:34,173  Source Connection Type: c07
+2022-05-10 15:58:34,173  source_table
+2022-05-10 15:58:34,173  ------------------------------------
+2022-05-10 15:58:34,173  Target Connection Type: c03
+2022-05-10 15:58:34,173  target_table
+2022-05-10 15:58:39,769  Exporting the files....
+2022-05-10 15:58:39,771  =====================================
+2022-05-10 15:58:39,792  =====================================
+2022-05-10 15:58:39,792  Executing TestCaseID - Testcase_id3
+2022-05-10 15:58:39,792  ------------------------------------
+2022-05-10 15:58:39,792  Source Connection Type: c07
+2022-05-10 15:58:39,792  source_table
+2022-05-10 15:58:39,792  ------------------------------------
+2022-05-10 15:58:39,793  Target Connection Type: c07
+2022-05-10 15:58:39,793  target_table
+2022-05-10 15:58:39,907  Exporting the files....
+2022-05-10 15:58:39,908  =====================================
+2022-05-10 15:58:39,928  =====================================
+2022-05-10 15:58:39,929  Executing TestCaseID - Testcase_id4
+2022-05-10 15:58:39,929  ------------------------------------
+2022-05-10 15:58:39,929  Source Connection Type: c03
+2022-05-10 15:58:39,929  source_table
+2022-05-10 15:58:39,929  ------------------------------------
+2022-05-10 15:58:39,929  Target Connection Type: c03
+2022-05-10 15:58:39,930  target_table
+2022-05-10 15:58:48,609  Checking Count and Recon....
+2022-05-10 15:58:48,614  Can only compare identically-labeled Series objects
+2022-05-10 15:58:48,614  Exporting the files....
+2022-05-10 15:58:48,636  =====================================
+2022-05-10 15:58:48,658  =====================================
+2022-05-10 15:58:48,658  Executing TestCaseID - Testcase_id5
+2022-05-10 15:58:48,659  ------------------------------------
+2022-05-10 15:58:48,659  Source Connection Type: c02
+2022-05-10 15:58:48,659  source_table
+2022-05-10 15:58:48,659  ------------------------------------
+2022-05-10 15:58:48,659  Target Connection Type: c02
+2022-05-10 15:58:48,659  target_table
+2022-05-10 15:58:48,660  Snowflake Connector for Python Version: 2.7.6, Python Version: 3.10.4, Platform: Windows-10-10.0.19043-SP0
+2022-05-10 15:58:48,660  This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-05-10 15:58:48,660  Setting use_openssl_only mode to False
+2022-05-10 15:58:49,997  query: [select * from test.public.sales_record]
+2022-05-10 15:58:50,293  query execution done
+2022-05-10 15:58:52,921  closed
+2022-05-10 15:58:53,117  No async queries seem to be running, deleting session
+2022-05-10 15:58:53,338  Snowflake Connector for Python Version: 2.7.6, Python Version: 3.10.4, Platform: Windows-10-10.0.19043-SP0
+2022-05-10 15:58:53,338  This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-05-10 15:58:54,784  query: [select * from test.public.sales_record]
+2022-05-10 15:58:55,023  query execution done
+2022-05-10 15:58:57,141  closed
+2022-05-10 15:58:57,333  No async queries seem to be running, deleting session
+2022-05-10 15:58:57,549  Exporting the files....
+2022-05-10 15:58:57,567  =====================================
+2022-05-10 15:58:57,590  =====================================
+2022-05-10 15:58:57,590  Executing TestCaseID - Testcase_id6
+2022-05-10 15:58:57,590  ------------------------------------
+2022-05-10 15:58:57,591  Source Connection Type: c03
+2022-05-10 15:58:57,591  source_table
+2022-05-10 15:58:57,591  ------------------------------------
+2022-05-10 15:58:57,591  Target Connection Type: c02
+2022-05-10 15:58:57,591  target_table
+2022-05-10 15:59:03,090  Snowflake Connector for Python Version: 2.7.6, Python Version: 3.10.4, Platform: Windows-10-10.0.19043-SP0
+2022-05-10 15:59:03,090  This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-05-10 15:59:04,187  query: [select * from test.public.sales_record]
+2022-05-10 15:59:04,508  query execution done
+2022-05-10 15:59:06,871  closed
+2022-05-10 15:59:07,075  No async queries seem to be running, deleting session
+2022-05-10 15:59:07,301  Exporting the files....
+2022-05-10 15:59:07,317  =====================================

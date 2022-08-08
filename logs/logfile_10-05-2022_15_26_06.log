@@ -1,0 +1,75 @@
+2022-05-10 15:26:06,027  =====================================
+2022-05-10 15:26:06,027  Executing TestCaseID - Testcase_id1
+2022-05-10 15:26:06,028  ------------------------------------
+2022-05-10 15:26:06,028  Source Connection Type: c03
+2022-05-10 15:26:06,028  source_table
+2022-05-10 15:26:06,028  ------------------------------------
+2022-05-10 15:26:06,028  Target Connection Type: c07
+2022-05-10 15:26:06,028  target_table
+2022-05-10 15:26:12,201  Exporting the files....
+2022-05-10 15:26:12,203  =====================================
+2022-05-10 15:26:12,250  =====================================
+2022-05-10 15:26:12,250  Executing TestCaseID - Testcase_id2
+2022-05-10 15:26:12,251  ------------------------------------
+2022-05-10 15:26:12,251  Source Connection Type: c07
+2022-05-10 15:26:12,251  source_table
+2022-05-10 15:26:12,251  ------------------------------------
+2022-05-10 15:26:12,251  Target Connection Type: c03
+2022-05-10 15:26:12,251  target_table
+2022-05-10 15:26:12,498  Exporting the files....
+2022-05-10 15:26:12,500  =====================================
+2022-05-10 15:26:12,529  =====================================
+2022-05-10 15:26:12,529  Executing TestCaseID - Testcase_id3
+2022-05-10 15:26:12,529  ------------------------------------
+2022-05-10 15:26:12,529  Source Connection Type: c07
+2022-05-10 15:26:12,529  source_table
+2022-05-10 15:26:12,529  ------------------------------------
+2022-05-10 15:26:12,530  Target Connection Type: c07
+2022-05-10 15:26:12,530  target_table
+2022-05-10 15:26:12,623  Exporting the files....
+2022-05-10 15:26:12,625  =====================================
+2022-05-10 15:26:12,650  =====================================
+2022-05-10 15:26:12,650  Executing TestCaseID - Testcase_id4
+2022-05-10 15:26:12,650  ------------------------------------
+2022-05-10 15:26:12,650  Source Connection Type: c03
+2022-05-10 15:26:12,651  source_table
+2022-05-10 15:26:12,651  ------------------------------------
+2022-05-10 15:26:12,651  Target Connection Type: c03
+2022-05-10 15:26:12,651  target_table
+2022-05-10 15:26:18,144  Exporting the files....
+2022-05-10 15:26:18,146  =====================================
+2022-05-10 15:26:18,172  =====================================
+2022-05-10 15:26:18,174  Executing TestCaseID - Testcase_id5
+2022-05-10 15:26:18,174  ------------------------------------
+2022-05-10 15:26:18,174  Source Connection Type: c02
+2022-05-10 15:26:18,174  source_table
+2022-05-10 15:26:18,174  ------------------------------------
+2022-05-10 15:26:18,175  Target Connection Type: c02
+2022-05-10 15:26:18,175  target_table
+2022-05-10 15:26:18,175  Snowflake Connector for Python Version: 2.7.6, Python Version: 3.10.4, Platform: Windows-10-10.0.19043-SP0
+2022-05-10 15:26:18,175  This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-05-10 15:26:18,175  Setting use_openssl_only mode to False
+2022-05-10 15:26:19,963  query: [select * from test.public.sales_record]
+2022-05-10 15:26:20,338  query execution done
+2022-05-10 15:26:21,858  WARNING!!! Using fail-open to connect. Driver is connecting to an HTTPS endpoint without OCSP based Certificate Revocation checking as it could not obtain a valid OCSP Response to use from the CA OCSP responder. Details: 
+ {'eventType': 'RevocationCheckFailure', 'eventSubType': 'OCSPResponseFailedToConnectCacheServer|OCSPResponseFetchException', 'sfcPeerHost': '0zefgwsfcb1stg.blob.core.windows.net', 'certId': 'MEowBwYFKw4DAhoEFFIe42xHgRmpywP6t05X4Rl68YGLBBS1dgwwEc7HkkJNTMdcLMipDOgLZAITEgAlp9Glxk+PLqeUHwAAACWn0Q==', 'ocspRequestBase64': 'MFIwUDBOMEwwSjAHBgUrDgMCGgQUUh7jbEeBGanLA/q3TlfhGXrxgYsEFLV2DDARzseSQk1Mx1wsyKkM6AtkAhMSACWn0aXGT48up5QfAAAAJafR', 'ocspResponderURL': 'http://ocsp.msocsp.com', 'errorMessage': "254003: 254003: Could not fetch OCSP Response from server. Considerchecking your whitelists : Exception - HTTPSConnectionPool(host='blr2fw.corp.capgemini.com', port=7831): Max retries exceeded with url: /XX/YY/ZZ/cpauth?scheme=http&4Tmthd=1&host=ocsp.msocsp.com&port=80&uri=Lw==& (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))", 'insecureMode': False, 'failOpen': True, 'cacheEnabled': True, 'cacheHit': False}
+2022-05-10 15:26:21,884  WARNING!!! Using fail-open to connect. Driver is connecting to an HTTPS endpoint without OCSP based Certificate Revocation checking as it could not obtain a valid OCSP Response to use from the CA OCSP responder. Details: 
+ {'eventType': 'RevocationCheckFailure', 'eventSubType': 'OCSPResponseFailedToConnectCacheServer|OCSPResponseFetchException', 'sfcPeerHost': '0zefgwsfcb1stg.blob.core.windows.net', 'certId': 'MEowBwYFKw4DAhoEFFIe42xHgRmpywP6t05X4Rl68YGLBBS1dgwwEc7HkkJNTMdcLMipDOgLZAITEgAlp9Glxk+PLqeUHwAAACWn0Q==', 'ocspRequestBase64': 'MFIwUDBOMEwwSjAHBgUrDgMCGgQUUh7jbEeBGanLA/q3TlfhGXrxgYsEFLV2DDARzseSQk1Mx1wsyKkM6AtkAhMSACWn0aXGT48up5QfAAAAJafR', 'ocspResponderURL': 'http://ocsp.msocsp.com', 'errorMessage': "254003: 254003: Could not fetch OCSP Response from server. Considerchecking your whitelists : Exception - HTTPSConnectionPool(host='blr2fw.corp.capgemini.com', port=7831): Max retries exceeded with url: /XX/YY/ZZ/cpauth?scheme=http&4Tmthd=1&host=ocsp.msocsp.com&port=80&uri=Lw==& (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))", 'insecureMode': False, 'failOpen': True, 'cacheEnabled': True, 'cacheHit': False}
+2022-05-10 15:26:21,892  WARNING!!! Using fail-open to connect. Driver is connecting to an HTTPS endpoint without OCSP based Certificate Revocation checking as it could not obtain a valid OCSP Response to use from the CA OCSP responder. Details: 
+ {'eventType': 'RevocationCheckFailure', 'eventSubType': 'OCSPResponseFailedToConnectCacheServer|OCSPResponseFetchException', 'sfcPeerHost': '0zefgwsfcb1stg.blob.core.windows.net', 'certId': 'MEowBwYFKw4DAhoEFFIe42xHgRmpywP6t05X4Rl68YGLBBS1dgwwEc7HkkJNTMdcLMipDOgLZAITEgAlp9Glxk+PLqeUHwAAACWn0Q==', 'ocspRequestBase64': 'MFIwUDBOMEwwSjAHBgUrDgMCGgQUUh7jbEeBGanLA/q3TlfhGXrxgYsEFLV2DDARzseSQk1Mx1wsyKkM6AtkAhMSACWn0aXGT48up5QfAAAAJafR', 'ocspResponderURL': 'http://ocsp.msocsp.com', 'errorMessage': "254003: 254003: Could not fetch OCSP Response from server. Considerchecking your whitelists : Exception - HTTPSConnectionPool(host='blr2fw.corp.capgemini.com', port=7831): Max retries exceeded with url: /XX/YY/ZZ/cpauth?scheme=http&4Tmthd=1&host=ocsp.msocsp.com&port=80&uri=Lw==& (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))", 'insecureMode': False, 'failOpen': True, 'cacheEnabled': True, 'cacheHit': False}
+2022-05-10 15:26:21,896  WARNING!!! Using fail-open to connect. Driver is connecting to an HTTPS endpoint without OCSP based Certificate Revocation checking as it could not obtain a valid OCSP Response to use from the CA OCSP responder. Details: 
+ {'eventType': 'RevocationCheckFailure', 'eventSubType': 'OCSPResponseFailedToConnectCacheServer|OCSPResponseFetchException', 'sfcPeerHost': '0zefgwsfcb1stg.blob.core.windows.net', 'certId': 'MEowBwYFKw4DAhoEFFIe42xHgRmpywP6t05X4Rl68YGLBBS1dgwwEc7HkkJNTMdcLMipDOgLZAITEgAlp9Glxk+PLqeUHwAAACWn0Q==', 'ocspRequestBase64': 'MFIwUDBOMEwwSjAHBgUrDgMCGgQUUh7jbEeBGanLA/q3TlfhGXrxgYsEFLV2DDARzseSQk1Mx1wsyKkM6AtkAhMSACWn0aXGT48up5QfAAAAJafR', 'ocspResponderURL': 'http://ocsp.msocsp.com', 'errorMessage': "254003: 254003: Could not fetch OCSP Response from server. Considerchecking your whitelists : Exception - HTTPSConnectionPool(host='blr2fw.corp.capgemini.com', port=7831): Max retries exceeded with url: /XX/YY/ZZ/cpauth?scheme=http&4Tmthd=1&host=ocsp.msocsp.com&port=80&uri=Lw==& (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))", 'insecureMode': False, 'failOpen': True, 'cacheEnabled': True, 'cacheHit': False}
+2022-05-10 15:26:24,918  closed
+2022-05-10 15:26:25,111  No async queries seem to be running, deleting session
+2022-05-10 15:26:25,336  Exporting the files....
+2022-05-10 15:26:25,338  =====================================
+2022-05-10 15:26:25,358  =====================================
+2022-05-10 15:26:25,358  Executing TestCaseID - Testcase_id6
+2022-05-10 15:26:25,359  ------------------------------------
+2022-05-10 15:26:25,359  Source Connection Type: c03
+2022-05-10 15:26:25,359  source_table
+2022-05-10 15:26:25,359  ------------------------------------
+2022-05-10 15:26:25,359  Target Connection Type: c02
+2022-05-10 15:26:25,359  target_table
+2022-05-10 15:26:30,869  Exporting the files....
+2022-05-10 15:26:30,871  =====================================

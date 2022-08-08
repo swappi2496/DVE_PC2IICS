@@ -1,0 +1,71 @@
+2022-05-10 15:37:42,264  =====================================
+2022-05-10 15:37:42,265  Executing TestCaseID - Testcase_id1
+2022-05-10 15:37:42,265  ------------------------------------
+2022-05-10 15:37:42,265  Source Connection Type: c03
+2022-05-10 15:37:42,265  source_table
+2022-05-10 15:37:42,266  ------------------------------------
+2022-05-10 15:37:42,266  Target Connection Type: c07
+2022-05-10 15:37:42,266  target_table
+2022-05-10 15:37:48,049  Exporting the files....
+2022-05-10 15:37:48,052  =====================================
+2022-05-10 15:37:48,092  =====================================
+2022-05-10 15:37:48,104  Executing TestCaseID - Testcase_id2
+2022-05-10 15:37:48,105  ------------------------------------
+2022-05-10 15:37:48,105  Source Connection Type: c07
+2022-05-10 15:37:48,105  source_table
+2022-05-10 15:37:48,105  ------------------------------------
+2022-05-10 15:37:48,105  Target Connection Type: c03
+2022-05-10 15:37:48,105  target_table
+2022-05-10 15:37:48,322  Exporting the files....
+2022-05-10 15:37:48,323  =====================================
+2022-05-10 15:37:48,343  =====================================
+2022-05-10 15:37:48,344  Executing TestCaseID - Testcase_id3
+2022-05-10 15:37:48,344  ------------------------------------
+2022-05-10 15:37:48,344  Source Connection Type: c07
+2022-05-10 15:37:48,344  source_table
+2022-05-10 15:37:48,344  ------------------------------------
+2022-05-10 15:37:48,344  Target Connection Type: c07
+2022-05-10 15:37:48,344  target_table
+2022-05-10 15:37:48,437  Exporting the files....
+2022-05-10 15:37:48,438  =====================================
+2022-05-10 15:37:48,458  =====================================
+2022-05-10 15:37:48,459  Executing TestCaseID - Testcase_id4
+2022-05-10 15:37:48,459  ------------------------------------
+2022-05-10 15:37:48,459  Source Connection Type: c03
+2022-05-10 15:37:48,459  source_table
+2022-05-10 15:37:48,459  ------------------------------------
+2022-05-10 15:37:48,459  Target Connection Type: c03
+2022-05-10 15:37:48,459  target_table
+2022-05-10 15:37:53,964  Exporting the files....
+2022-05-10 15:37:53,965  =====================================
+2022-05-10 15:37:53,986  =====================================
+2022-05-10 15:37:53,986  Executing TestCaseID - Testcase_id5
+2022-05-10 15:37:53,986  ------------------------------------
+2022-05-10 15:37:53,987  Source Connection Type: c02
+2022-05-10 15:37:53,987  source_table
+2022-05-10 15:37:53,987  ------------------------------------
+2022-05-10 15:37:53,987  Target Connection Type: c02
+2022-05-10 15:37:53,987  target_table
+2022-05-10 15:37:53,987  Snowflake Connector for Python Version: 2.7.6, Python Version: 3.10.4, Platform: Windows-10-10.0.19043-SP0
+2022-05-10 15:37:53,987  This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2022-05-10 15:37:53,987  Setting use_openssl_only mode to False
+2022-05-10 15:37:55,757  query: [select * from test.public.sales_record]
+2022-05-10 15:37:56,055  query execution done
+2022-05-10 15:37:57,758  WARNING!!! Using fail-open to connect. Driver is connecting to an HTTPS endpoint without OCSP based Certificate Revocation checking as it could not obtain a valid OCSP Response to use from the CA OCSP responder. Details: 
+ {'eventType': 'RevocationCheckFailure', 'eventSubType': 'OCSPResponseFailedToConnectCacheServer|OCSPResponseFetchException', 'sfcPeerHost': '0zefgwsfcb1stg.blob.core.windows.net', 'certId': 'MEowBwYFKw4DAhoEFFIe42xHgRmpywP6t05X4Rl68YGLBBS1dgwwEc7HkkJNTMdcLMipDOgLZAITEgAlp9Glxk+PLqeUHwAAACWn0Q==', 'ocspRequestBase64': 'MFIwUDBOMEwwSjAHBgUrDgMCGgQUUh7jbEeBGanLA/q3TlfhGXrxgYsEFLV2DDARzseSQk1Mx1wsyKkM6AtkAhMSACWn0aXGT48up5QfAAAAJafR', 'ocspResponderURL': 'http://ocsp.msocsp.com', 'errorMessage': "254003: 254003: Could not fetch OCSP Response from server. Considerchecking your whitelists : Exception - HTTPSConnectionPool(host='blr2fw.corp.capgemini.com', port=7831): Max retries exceeded with url: /XX/YY/ZZ/cpauth?scheme=http&4Tmthd=1&host=ocsp.msocsp.com&port=80&uri=Lw==& (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))", 'insecureMode': False, 'failOpen': True, 'cacheEnabled': True, 'cacheHit': False}
+2022-05-10 15:37:58,079  WARNING!!! Using fail-open to connect. Driver is connecting to an HTTPS endpoint without OCSP based Certificate Revocation checking as it could not obtain a valid OCSP Response to use from the CA OCSP responder. Details: 
+ {'eventType': 'RevocationCheckFailure', 'eventSubType': 'OCSPResponseFailedToConnectCacheServer|OCSPResponseFetchException', 'sfcPeerHost': '0zefgwsfcb1stg.blob.core.windows.net', 'certId': 'MEowBwYFKw4DAhoEFFIe42xHgRmpywP6t05X4Rl68YGLBBS1dgwwEc7HkkJNTMdcLMipDOgLZAITEgAlp9Glxk+PLqeUHwAAACWn0Q==', 'ocspRequestBase64': 'MFIwUDBOMEwwSjAHBgUrDgMCGgQUUh7jbEeBGanLA/q3TlfhGXrxgYsEFLV2DDARzseSQk1Mx1wsyKkM6AtkAhMSACWn0aXGT48up5QfAAAAJafR', 'ocspResponderURL': 'http://ocsp.msocsp.com', 'errorMessage': "254003: 254003: Could not fetch OCSP Response from server. Considerchecking your whitelists : Exception - HTTPSConnectionPool(host='blr2fw.corp.capgemini.com', port=7831): Max retries exceeded with url: /XX/YY/ZZ/cpauth?scheme=http&4Tmthd=1&host=ocsp.msocsp.com&port=80&uri=Lw==& (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))", 'insecureMode': False, 'failOpen': True, 'cacheEnabled': True, 'cacheHit': False}
+2022-05-10 15:38:00,714  closed
+2022-05-10 15:38:00,901  No async queries seem to be running, deleting session
+2022-05-10 15:38:01,112  Exporting the files....
+2022-05-10 15:38:01,114  =====================================
+2022-05-10 15:38:01,134  =====================================
+2022-05-10 15:38:01,135  Executing TestCaseID - Testcase_id6
+2022-05-10 15:38:01,135  ------------------------------------
+2022-05-10 15:38:01,135  Source Connection Type: c03
+2022-05-10 15:38:01,135  source_table
+2022-05-10 15:38:01,135  ------------------------------------
+2022-05-10 15:38:01,135  Target Connection Type: c02
+2022-05-10 15:38:01,135  target_table
+2022-05-10 15:38:07,247  Exporting the files....
+2022-05-10 15:38:07,248  =====================================
